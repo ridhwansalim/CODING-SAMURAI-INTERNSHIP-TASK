@@ -75,7 +75,7 @@ Analyze historical sales data from a US-based superstore to uncover patterns in 
 
 **Ridhwan Salim**  
 _Data Analyst Intern | Data Science Enthusiast_  
-[LinkedIn](https://www.linkedin.com/in/YOUR_PROFILE) • [GitHub](https://github.com/ridhwansalim)
+[LinkedIn](https://www.linkedin.com/in/ridhwan-s) • [GitHub](https://github.com/ridhwansalim)
 
 ---
 
