@@ -8,7 +8,7 @@
 
 | Level | Project Name | Description |
 |-------|--------------|-------------|
-| Level 1 | [Sales Data Analysis](./Level1/Project1_Sales_Analysis/) | Exploratory Data Analysis on sales transactions |
+| Level 1 | [Sales Data Analysis](./Level1/Project1_Sales_Analysis/Supermarket_sales_analysis.ipynb) | Exploratory Data Analysis on sales transactions |
 | Level 1 | [Linear Regression Model](./Level1/Project2_Linear_Regression/) | Predicting outcomes using simple regression |
 | Level 2 | [Titanic EDA](./Level2/Project3_EDA_Titanic/) | Visual exploration of survival data |
 | Level 2 | [Titanic Logistic Regression](./Level2/Project4_Logistic_Titanic/) | Binary classification using ML |
