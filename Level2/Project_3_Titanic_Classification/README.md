@@ -1,55 +1,64 @@
-# 🚢 Project 3: Logistic Regression on Titanic Dataset
+# 🚢 Project 3: Exploratory Data Analysis (EDA) on Titanic Dataset
 
-## 📌 Objective
-The goal of this project is to build a binary classification model to predict whether a passenger survived the Titanic disaster based on various features such as age, class, sex, fare, and more.
+## 🧠 Objective
+The goal of this project is to perform a detailed Exploratory Data Analysis (EDA) on the Titanic dataset. We'll uncover insights into survival patterns, clean the data, handle missing values, and visualize key relationships between features.
 
-## 🧠 Problem Statement
-Given the Titanic passenger data, we aim to predict the survival outcome (0 = did not survive, 1 = survived) using supervised learning techniques, specifically logistic regression.
+This project is part of my Data Science Internship at **Coding Samurai**.
 
-## 🗂️ Dataset Information
-- **Dataset Name:** Titanic - Machine Learning from Disaster
-- **Source:** [Kaggle - Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
+---
+
+## 📂 Dataset Overview
+
+- **Dataset:** Titanic - Machine Learning from Disaster  
+- **Source:** [Kaggle Titanic Competition](https://www.kaggle.com/competitions/titanic)  
 - **Rows:** 891  
 - **Columns:** 12  
-- **Target Variable:** Survived  
-- **Key Features:** Pclass, Sex, Age, SibSp, Parch, Fare, Embarked
+- **Target Variable:** `Survived` (0 = No, 1 = Yes)
 
-## 🛠️ Tech Stack
-- **Language:** Python 3
-- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn
+---
 
-## 🔍 Exploratory Data Analysis
-- Visualized survival rates by gender and passenger class
-- Handled missing values (especially in 'Age' and 'Embarked')
-- Converted categorical features into numeric using Label Encoding
-- Explored feature correlations
+## 🔍 Key Questions Explored
 
-## 🧪 Model Building
-- Used logistic regression as the baseline model
-- Split data into training and testing sets (80/20)
-- Evaluated model using accuracy, precision, recall, and F1-score
-- Used confusion matrix and classification report for diagnostics
+- What factors influenced survival rates on the Titanic?
+- Did gender, age, or passenger class impact survival?
+- How are features correlated with each other?
+- How can we clean and prepare the data for modeling?
 
-## 📊 Evaluation Metrics
-- **Accuracy:** 81%
-- **Confusion Matrix:** [[90 15] [19 55]]
+---
 
+## 🛠️ Tools & Libraries
 
-- **Classification Report:**
+- **Language:** Python 3  
+- **Libraries:** pandas, numpy, matplotlib, seaborn  
 
-| Class | Precision | Recall | F1-Score | Support |
-|-------|-----------|--------|----------|---------|
-| 0     | 0.83      | 0.86   | 0.84     | 105     |
-| 1     | 0.79      | 0.74   | 0.76     | 74      |
-```
-Macro Avg:     Precision 0.81   |   Recall 0.80   |   F1-Score 0.80  
-Weighted Avg:  Precision 0.81   |   Recall 0.81   |   F1-Score 0.81
-```
+---
 
-## 📈 Visualizations
-- Confusion matrix heatmap  
-- Survival rate by gender and class  
-- Feature importance chart (optional)  
+## 📊 EDA Highlights
+
+### ✅ Data Cleaning:
+- Dropped unnecessary columns: `Cabin`, `Name`, `Ticket`, `PassengerId`
+- Handled missing values in `Age` (filled with median) and `Embarked` (filled with mode)
+
+### 📈 Visual Analysis:
+- Countplots to show survival by gender and class  
+- Histograms of Age and Fare  
+- Boxplots to compare Fare across classes  
+- Correlation heatmap of numeric features
+
+### 🔢 Feature Encoding:
+- Converted `Sex` to binary format (0 = male, 1 = female)
+- Applied one-hot encoding on `Embarked` with `get_dummies()`
+
+---
+
+## 📌 Key Insights
+
+- **Females** had a significantly higher survival rate than males
+- **Higher-class** passengers (Pclass 1) were more likely to survive
+- **Fare** and **age** distributions showed survival advantages for higher-paying and younger passengers
+- `Sex`, `Pclass`, and `Fare` showed strong correlations with the `Survived` column
+
+--- 
 
 ## 📁 Folder Structure
 
@@ -62,14 +71,20 @@ Project_3_Titanic_Classification
 └── train.csv  
 
 
-## 📎 Links
-- [Kaggle Dataset](https://www.kaggle.com/competitions/titanic)
-- [LinkedIn Blog Post](https://www.linkedin.com/posts/ridhwan-s_internship-logisticregression-machinelearning-activity-7314919885023690753-YilI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgcWwYBA84L3SH9WeTjVFF7wNrT2eTPdTw)
-- [Slide Deck](https://www.linkedin.com/posts/ridhwan-s_titanic-survival-prediction-using-logistic-activity-7314905809400778752-yy9g?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgcWwYBA84L3SH9WeTjVFF7wNrT2eTPdTw)
+---
 
-## 📌 Conclusion
-This project demonstrates how logistic regression can be used to make binary predictions on real-world datasets. Key learnings include:
-- Data cleaning and EDA are critical before modeling
-- Categorical variables need to be encoded properly
-- Model performance depends heavily on balanced data and relevant features
+## 📎 Useful Links
 
+- 🔗 [Kaggle Dataset](https://www.kaggle.com/competitions/titanic)
+- 🧠 [Blog Post](#) *(To be added)*
+- 📽️ [Slide Deck](#) *(To be added)*
+
+---
+
+## 🙌 Conclusion
+
+This project showcased the power of **exploratory data analysis** in understanding a real-world dataset. EDA is the **first and most critical** step before any machine learning modeling. It helps spot trends, detect outliers, and build strong domain intuition.
+
+**Next Step?** This cleaned dataset is now ready for building a predictive model (e.g., logistic regression or random forest).
+
+---
