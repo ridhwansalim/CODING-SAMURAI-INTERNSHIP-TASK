@@ -58,7 +58,7 @@ Project_3_Titanic_Classification
 
 ## 📎 Links
 - [Kaggle Dataset](https://www.kaggle.com/competitions/titanic)
-- [LinkedIn Blog Post](#)
+- [LinkedIn Blog Post]([text](https://www.linkedin.com/posts/ridhwan-s_internship-logisticregression-machinelearning-activity-7314919885023690753-YilI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgcWwYBA84L3SH9WeTjVFF7wNrT2eTPdTw))
 - [Slide Deck](#)
 
 ## 📌 Conclusion
