@@ -76,8 +76,8 @@ Project_3_Titanic_Classification
 ## 📎 Useful Links
 
 - 🔗 [Kaggle Dataset](https://www.kaggle.com/competitions/titanic)
-- 🧠 [Blog Post](#) *(To be added)*
-- 📽️ [Slide Deck](#) *(To be added)*
+- 🧠 [Blog Post](https://www.linkedin.com/posts/ridhwan-s_datascience-internship-titaniceda-activity-7315026177813884930-ok0T?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgcWwYBA84L3SH9WeTjVFF7wNrT2eTPdTw)
+- 📽️ [Slide Deck](https://www.linkedin.com/posts/ridhwan-s_titanic-dataset-survival-analysis-with-eda-activity-7315023344540565505-aSJn?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgcWwYBA84L3SH9WeTjVFF7wNrT2eTPdTw)
 
 ---
 
