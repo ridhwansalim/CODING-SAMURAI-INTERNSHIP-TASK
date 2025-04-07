@@ -21,11 +21,13 @@ This project explores the relationship between advertising spend and product sal
 - Our model explains ~91% of sales variance.
 
 ## 📁 Folder Structure
-- Project2_Linear_Regression/
-- ├── Project2_Regression_Model.ipynb  # Linear regression model notebook
-- ├── Advertising.csv                  # Dataset with ad spends and sales
-- ├── Project2_Slides.pdf              # Slide deck for presentation
-- ├── README.md                        # Project README
+
+Project2_Linear_Regression  
+├── Advertising.csv  
+├── Project2_Regression_Model.ipynb  
+├── Project2_Slides.pdf  
+└── README.md  
+
 
 ## 📝 Dataset
 - [Advertising Dataset on GitHub](https://github.com/selva86/datasets/blob/master/Advertising.csv)

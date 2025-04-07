@@ -46,13 +46,15 @@ Given the Titanic passenger data, we aim to predict the survival outcome (0 = di
 - Feature importance chart (optional)  
 
 ## 📁 Folder Structure
-- Project_3_Titanic_Classification/
-- ├── Titanic_Classifier.ipynb         # Logistic regression and evaluation
-- ├── train.csv                        # Training dataset
-- ├── test.csv                         # Test dataset
-- ├── image.png                        # Visual asset for blog/LinkedIn
-- ├── Project3_Slides.pdf              # Final presentation slides
-- ├── README.md                        # Project README
+
+Project_3_Titanic_Classification  
+├── Project3_Slides.pdf  
+├── README.md  
+├── Titanic_Classifier.ipynb  
+├── image.png  
+├── test.csv  
+└── train.csv  
+
 
 ## 📎 Links
 - [Kaggle Dataset](https://www.kaggle.com/competitions/titanic)
