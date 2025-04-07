@@ -41,11 +41,10 @@ Given the Titanic passenger data, we aim to predict the survival outcome (0 = di
 |-------|-----------|--------|----------|---------|
 | 0     | 0.83      | 0.86   | 0.84     | 105     |
 | 1     | 0.79      | 0.74   | 0.76     | 74      |
-
-**Macro Avg:**     Precision 0.81 | Recall 0.80 | F1-Score 0.80  
-**Weighted Avg:**  Precision 0.81 | Recall 0.81 | F1-Score 0.81
-
-
+```
+Macro Avg:     Precision 0.81   |   Recall 0.80   |   F1-Score 0.80  
+Weighted Avg:  Precision 0.81   |   Recall 0.81   |   F1-Score 0.81
+```
 
 ## 📈 Visualizations
 - Confusion matrix heatmap  
