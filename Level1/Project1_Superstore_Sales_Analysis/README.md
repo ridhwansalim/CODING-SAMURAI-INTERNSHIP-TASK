@@ -52,15 +52,11 @@ Analyze historical sales data from a US-based superstore to uncover patterns in 
 
 ## 📁 Folder Structure
  Project1_Superstore_Sales_Analysis/
- ├── Superstore_Sales_EDA.ipynb     # Notebook with visual EDA
-
- ├── Superstore_Final_Report.pdf    # Summary report of analysis
-
- ├── Superstore.csv                 # Raw sales dataset
-
- ├── Project1_Slides.pdf            # Final presentation
- 
- ├── README.md                      # Project README
+ ├── Superstore_Sales_EDA.ipynb
+ ├── Superstore_Final_Report.pdf
+ ├── Superstore.csv
+ ├── Project1_Slides.pdf
+ ├── README.md
 
 
 ---
