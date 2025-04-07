@@ -1,7 +1,6 @@
 # 📊 Project 1: Superstore Sales Analysis
 
-This project is part of my **Data Science Internship with [Coding Samurai](https://www.linkedin.com/company/coding-samurai/)**.  
-The goal was to perform exploratory data analysis (EDA) on a real-world retail dataset to derive business insights and build a foundation in data storytelling.
+This project is part of my **Data Science Internship with [Coding Samurai](https://www.linkedin.com/company/coding-samurai/)**. The goal was to perform exploratory data analysis (EDA) on a real-world retail dataset to derive business insights and build a foundation in data storytelling.
 
 ---
 
