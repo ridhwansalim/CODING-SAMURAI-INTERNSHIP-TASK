@@ -32,13 +32,19 @@ Given the Titanic passenger data, we aim to predict the survival outcome (0 = di
 
 ## 📊 Evaluation Metrics
 - **Accuracy:** 81%
-- **Confusion Matrix:**
-- [[90 15] [19 55]]
+- **Confusion Matrix:** [[90 15] [19 55]]
+
 
 - **Classification Report:**
-- Precision: 0.83 (Class 0), 0.79 (Class 1)
-- Recall: 0.86 (Class 0), 0.74 (Class 1)
-- F1-Score: 0.84 (Class 0), 0.76 (Class 1)
+
+| Class | Precision | Recall | F1-Score | Support |
+|-------|-----------|--------|----------|---------|
+| 0     | 0.83      | 0.86   | 0.84     | 105     |
+| 1     | 0.79      | 0.74   | 0.76     | 74      |
+
+**Macro Avg:** Precision 0.81 | Recall 0.80 | F1-Score 0.80  
+**Weighted Avg:** Precision 0.81 | Recall 0.81 | F1-Score 0.81
+
 
 ## 📈 Visualizations
 - Confusion matrix heatmap  
@@ -59,7 +65,7 @@ Project_3_Titanic_Classification
 ## 📎 Links
 - [Kaggle Dataset](https://www.kaggle.com/competitions/titanic)
 - [LinkedIn Blog Post](https://www.linkedin.com/posts/ridhwan-s_internship-logisticregression-machinelearning-activity-7314919885023690753-YilI?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgcWwYBA84L3SH9WeTjVFF7wNrT2eTPdTw)
-- [Slide Deck](#)
+- [Slide Deck](https://www.linkedin.com/posts/ridhwan-s_titanic-survival-prediction-using-logistic-activity-7314905809400778752-yy9g?utm_source=share&utm_medium=member_desktop&rcm=ACoAADgcWwYBA84L3SH9WeTjVFF7wNrT2eTPdTw)
 
 ## 📌 Conclusion
 This project demonstrates how logistic regression can be used to make binary predictions on real-world datasets. Key learnings include:
