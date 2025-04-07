@@ -6,6 +6,5 @@ __pycache__/
 .env
 .vscode/
 .idea/
-*.csv
 *.xlsx
 *.log
