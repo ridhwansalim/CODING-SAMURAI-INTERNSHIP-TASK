@@ -116,7 +116,7 @@ The analysis specifically focuses on the **'Close' prices** of AAPL for forecast
 
 **Ridhwan Salim**  
 *Data Analyst Intern @ Coding Samurai*  
-🔗 [LinkedIn Profile](https://www.linkedin.com)
+🔗 [LinkedIn Profile](https://linkedin.com/in/ridhwan-s)
 
 ---
 ``
