@@ -1,3 +1,5 @@
+🎯 *Predicting Titanic passenger survival with an 81% accuracy logistic regression model as part of my Data Science Internship.*
+
 # 🚢 Titanic Survival Prediction - Logistic Regression
 
 This project is part of the **Coding Samurai Data Science Internship**.
@@ -6,6 +8,19 @@ We built a **Logistic Regression model** using Python and Scikit-learn to predic
 
 ---
 
+## 📚 Table of Contents
+
+- [Project Objective](#-project-objective)
+- [Dataset](#-dataset)
+- [Skills Used](#-skills-used)
+- [Workflow](#️-workflow)
+- [Model Evaluation](#-model-evaluation)
+- [Key Learnings](#-key-learnings)
+- [Future Improvements](#-future-improvements)
+- [Author](#-author)
+- [Connect with Me](#-connect-with-me)
+
+---
 ## 📌 Project Objective
 
 To apply classification techniques using Logistic Regression to model survival on the Titanic.
@@ -45,12 +60,12 @@ To apply classification techniques using Logistic Regression to model survival o
 ## 📈 Model Evaluation
 
 - **Accuracy**: `81%`  
-- **Confusion Matrix**:
+- **Confusion Matrix:**
     ```
     [[90 15]
      [19 55]]
     ```
-- **Classification Report**:
+- **Classification Report:**
     ```
               precision    recall  f1-score   support
 
