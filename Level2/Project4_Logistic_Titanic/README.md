@@ -1,90 +1,94 @@
-# 🚢 Titanic Survival Prediction - Logistic Regression Model
+# 🚢 Titanic Survival Prediction - Logistic Regression
 
-This project is part of my **Coding Samurai Data Science Internship (Project 4)**.  
-We build a classification model to predict whether a passenger survived the Titanic disaster based on features like age, gender, ticket class, and fare.
+This project is part of the **Coding Samurai Data Science Internship**.
 
----
-
-## 📌 Project Overview
-
-- **Dataset**: Titanic Dataset from [Kaggle](https://www.kaggle.com/competitions/titanic)
-- **Problem Type**: Binary Classification
-- **Model Used**: Logistic Regression (Scikit-learn)
+We built a **Logistic Regression model** using Python and Scikit-learn to predict whether a passenger survived the Titanic tragedy based on features like age, sex, ticket class, and more.
 
 ---
 
-## 🧠 Skills Demonstrated
+## 📌 Project Objective
 
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Feature engineering and encoding
-- Train-test splitting
-- Logistic Regression model training
-- Model evaluation using accuracy, confusion matrix, and classification report
+To apply classification techniques using Logistic Regression to model survival on the Titanic.
 
 ---
 
-## 🧹 Data Preprocessing
+## 📂 Dataset
 
-- Dropped irrelevant columns: `Cabin`, `Ticket`, `Name`, `PassengerId`
-- Filled missing `Age` with median and `Embarked` with mode
-- Converted categorical variables (`Sex`, `Embarked`) to numeric
-- Used one-hot encoding for multi-class categorical features
+- **Source**: [Kaggle Titanic Dataset](https://www.kaggle.com/competitions/titanic)
+- **Features Used**:  
+  `Pclass`, `Sex`, `Age`, `SibSp`, `Parch`, `Fare`, `Embarked`
 
 ---
 
-## 📈 Model Performance
+## 🧪 Skills Used
 
-- **Accuracy**: ~81%
-- **Confusion Matrix**: [[90 15] [19 55]]
+- Data cleaning & wrangling (Pandas, NumPy)  
+- Data visualization (Matplotlib, Seaborn)  
+- Feature engineering  
+- Classification with Logistic Regression  
+- Model evaluation (Confusion Matrix, Precision, Recall, F1-score)
+
+---
+
+## 🛠️ Workflow
+
+1. **Data Loading**  
+2. **Exploratory Data Analysis (EDA)**  
+3. **Handling Missing Values**  
+4. **Feature Encoding**  
+5. **Train-Test Split**  
+6. **Model Training with Logistic Regression**  
+7. **Evaluation using Accuracy & Confusion Matrix**
+
+---
+
+## 📈 Model Evaluation
+
+- **Accuracy**: `81%`  
+- **Confusion Matrix**:
+    ```
+    [[90 15]
+     [19 55]]
+    ```
 - **Classification Report**:
-            precision    recall  f1-score   support
+    ```
+              precision    recall  f1-score   support
 
-     0       0.83      0.86      0.84       105
-     1       0.79      0.74      0.76        74
+           0       0.83      0.86      0.84       105
+           1       0.79      0.74      0.76        74
 
-accuracy                           0.81       179
-macro avg 0.81 0.80 0.80 179 weighted avg 0.81 0.81 0.81 179
-
-yaml
-Copy
-Edit
-
+    accuracy                           0.81       179
+    macro avg       0.81      0.80      0.80       179
+    weighted avg    0.81      0.81      0.81       179
+    ```
 
 ---
 
-## 📊 Key Visualizations
+## 🧠 Key Learnings
 
-- Survival by Gender and Passenger Class
-- Fare and Age Distributions
-- Correlation Heatmap
-- Confusion Matrix Heatmap
-
----
-
-## 🚀 Future Improvements
-
-- Try Random Forest or Gradient Boosting for better performance
-- Use grid search for hyperparameter tuning
-- Deal with class imbalance (if detected)
-- Add feature importance plots
+- Logistic regression is highly interpretable for binary classification.
+- Data preprocessing & feature engineering significantly affect model performance.
+- Model evaluation metrics help reveal deeper insights beyond accuracy.
 
 ---
 
-## 📁 File Structure
+## 📎 Future Improvements
 
-├── titanic_logistic_regression.ipynb ├── README.md ├── presentation.pptx ├── titanic.csv (train dataset)
+- Use ensemble methods like Random Forest or Gradient Boosting.
+- Try cross-validation for stability.
+- Perform hyperparameter tuning with GridSearchCV.
+- Deal with class imbalance using SMOTE or class weighting.
 
 ---
 
-## 🙋‍♂️ Author
+## 🧑‍💻 Author
 
 **Ridhwan S**  
-_Data Analyst Intern @ Coding Samurai_
+_Data Analyst Intern_  
+📍 Coding Samurai - Data Science Internship
 
 ---
 
-## 🧠 Inspiration
+## 🔗 Connect with Me
 
-Inspired by the classic Titanic ML challenge from Kaggle. This project helped me deepen my understanding of classification, model evaluation, and feature engineering.
-
+[LinkedIn](https://linkedin.com/in/ridhwan-s) | [GitHub](https://GitHub.com/ridhwansalim)
