@@ -62,7 +62,7 @@ This project is part of my Data Science Internship at **Coding Samurai**.
 
 ## 📁 Folder Structure
 
-Project_3_Titanic_Classification  
+Project3_Titanic_Classification  
 ├── Project3_Slides.pdf  
 ├── README.md  
 ├── Titanic_Classifier.ipynb  
