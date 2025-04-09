@@ -8,3 +8,4 @@ __pycache__/
 .idea/
 *.xlsx
 *.log
+Level3/Project6_Sentiment_Tweets/tweets.csv
