@@ -66,8 +66,8 @@ Welcome to my GitHub repository showcasing the 6 hands-on projects I completed a
     - `Project1_Superstore_Sales_Analysis/`
     - `Project2_Linear_Regression/`
   - **Level2/**
-    - `Project4_Logistic_Titanic/`
     - `Project3_Titanic_Classification/`
+    - `Project4_Logistic_Titanic/`
   - **Level3/**
     - `Project5_TimeSeries_Stocks/`
     - `Project6_Sentiment_Tweets/`
