@@ -1,100 +1,140 @@
-# 💬 Sentiment Analysis on Twitter Data Using NLP
+# 💬 Sentiment Analysis on Tweets using NLP
 
-This project is part of the **Coding Samurai Data Science Internship**. The goal is to classify tweets as **positive** or **negative** using natural language processing techniques and a machine learning classifier.
+This project was completed as part of the **Coding Samurai Data Science Internship**.
+
+We performed sentiment analysis on social media posts (tweets) using Natural Language Processing techniques to determine if a tweet is **positive** or **negative** in sentiment.
 
 ---
 
 ## 📌 Objective
 
-To build a machine learning model that performs sentiment analysis on tweets using preprocessing, TF-IDF vectorization, and logistic regression.
+To develop a machine learning pipeline that processes raw tweets, cleans and tokenizes the text, extracts features using TF-IDF, and builds a classification model to predict sentiment labels (positive or negative).
 
 ---
 
-## 📁 Dataset
+## 🧠 Problem Statement
 
-- **Name:** Sentiment140 Tweets Dataset (`tweets.csv`)
-- **Source:** Pre-downloaded CSV based on Sentiment140 structure
-- **Size:** 1.6 million tweets
-- **Columns:** `target`, `id`, `date`, `query`, `user`, `tweet`
-
-### 📊 Sentiment Labels:
-- `0` → Negative  
-- `4` → Positive  
+Given a large dataset of tweets with sentiment labels (`0 = Negative`, `4 = Positive`), our goal is to:
+- Clean and preprocess text data
+- Extract features using NLP
+- Train a classification model
+- Evaluate and visualize model performance
 
 ---
 
-## 🧠 Skills Applied
+## 📁 Dataset Details
 
-- Text cleaning using RegEx
-- NLP: Tokenization, Stopword Removal, Lemmatization
-- TF-IDF Vectorization
-- Supervised Learning (Logistic Regression)
-- Evaluation: Accuracy, Confusion Matrix, F1 Score
-- Word Cloud Visualization
-
----
-
-## 🛠️ Tech Stack
-
-- Python 3
-- Libraries: pandas, numpy, seaborn, matplotlib, sklearn, nltk, wordcloud
+- **Source**: [Sentiment140 Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140)
+- **Total Samples**: 1.6 Million Tweets  
+- **Columns**:  
+  - `target` — Sentiment (0 = Negative, 4 = Positive)  
+  - `id` — Tweet ID  
+  - `date` — Timestamp  
+  - `query` — Query type (mostly `NO_QUERY`)  
+  - `user` — Username  
+  - `tweet` — Raw tweet text
 
 ---
 
-## 🔍 Workflow Overview
+## 🛠️ Tools & Libraries
 
-1. **Data Loading & Inspection**
-2. **Data Cleaning** – remove URLs, mentions, special chars
-3. **Text Preprocessing** – tokenize, lemmatize, normalize
-4. **TF-IDF Vectorization**
-5. **Train/Test Split**
-6. **Model Training: Logistic Regression**
-7. **Evaluation** – confusion matrix, metrics
-8. **Visualization** – heatmaps + word clouds
+- **Language**: Python 3  
+- **IDE**: PyCharm  
+- **Libraries**:
+  - `pandas`, `numpy` — Data manipulation
+  - `re` — Regex for text cleaning
+  - `nltk` — Tokenization, stopwords, lemmatization
+  - `sklearn` — Vectorization, model building, evaluation
+  - `matplotlib`, `seaborn`, `wordcloud` — Visualization
+
+---
+
+## 🔄 Workflow
+
+1. **Data Cleaning**
+   - Removed URLs, mentions, hashtags, punctuations, etc.
+   - Lowercased all text
+
+2. **Text Preprocessing**
+   - Tokenized tweets using `nltk.word_tokenize()`
+   - Removed stopwords
+   - Lemmatized words using `WordNetLemmatizer`
+
+3. **Feature Engineering**
+   - TF-IDF vectorizer used to convert text into numerical format
+
+4. **Model Building**
+   - Used Logistic Regression for classification
+   - Trained on 80% of data, tested on 20%
+
+5. **Evaluation Metrics**
+   - Accuracy: **77.38%**
+   - Confusion Matrix:
+     ```
+     [[120000  39494]
+      [ 32888 127618]]
+     ```
+   - F1-Score: 0.77 (Balanced across classes)
+
+6. **Visualization**
+   - Word clouds for positive and negative sentiments
+   - Bar plots for class distributions
 
 ---
 
 ## 📊 Model Performance
 
-- **Accuracy:** 77.38%
-- **Confusion Matrix:** [[120000 39494] [ 32888 127618]]
+- **Precision (Positive)**: 0.76  
+- **Recall (Positive)**: 0.80  
+- **F1-Score (Positive)**: 0.78  
+- **Precision (Negative)**: 0.78  
+- **Recall (Negative)**: 0.75  
+- **F1-Score (Negative)**: 0.77  
 
-
-- **Classification Report:**
-
-| Class | Precision | Recall | F1-Score |
-|-------|-----------|--------|----------|
-|   0   |   0.78    |  0.75  |   0.77   |
-|   4   |   0.76    |  0.80  |   0.78   |
+Overall, the model generalizes well with balanced precision and recall.
 
 ---
 
-## 🌩️ Visualizations
+## 🔮 Insights
 
-- 📉 Confusion Matrix heatmap  
-- 📊 Sentiment class distribution  
-- ☁️ Word Clouds for Positive & Negative tweets
+- The model is able to classify tweets with decent accuracy and robustness.
+- Text preprocessing and lemmatization played a major role in improving results.
+- TF-IDF helped focus on key keywords related to sentiment.
+
+---
+
+## 🧑‍💻 Author
+
+**Ridhwan S**  
+_Data Analyst Intern_  
+📍 Coding Samurai - Data Science Internship
 
 ---
 
 ## 📎 Links
 
-- [LinkedIn Blog Post](#) <!-- Update this after publishing -->
-- [Slide Deck on LinkedIn](#) <!-- Update this after upload -->
+- [Dataset on Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140)
+- [LinkedIn Blog Post](https://linkedin.com/in/ridhwan-s)
+- [GitHub Repository](https://github.com/ridhwansalim/CODING-SAMURAI-INTERNSHIP-TASK)
 
 ---
 
-## 📌 Conclusion
+## ✅ Deliverables
 
-- Successfully built a sentiment classifier with 77% accuracy
-- Preprocessing and TF-IDF played a crucial role in performance
-- Word clouds offered visual storytelling for each sentiment class
-- This project demonstrates practical NLP and real-world classification
+- [x] Cleaned and preprocessed tweet data  
+- [x] Exploratory analysis and visualization  
+- [x] Logistic Regression classifier  
+- [x] Evaluation metrics and confusion matrix  
+- [x] PowerPoint presentation  
+- [x] LinkedIn blog post  
+- [x] README.md  
 
 ---
 
-## 👨‍💻 Author
+## 🚀 Future Improvements
 
-**Ridhwan S**  
-_Data Analyst Intern at Coding Samurai_  
-[LinkedIn](https://linkedin.com/in/ridhwan-s) | [GitHub](https://github.com/ridhwansalim)
+- Try deep learning models like LSTM or BERT  
+- Implement multi-class sentiment (positive, neutral, negative)  
+- Train on recent real-time tweet data using the Twitter API
+
+---

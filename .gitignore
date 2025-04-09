@@ -9,3 +9,8 @@ __pycache__/
 *.xlsx
 *.log
 Level3/Project6_Sentiment_Tweets/tweets.csvLevel3/Project6_Sentiment_Tweets/tweets.csv
+# Ignore large files and system junk
+*.csv
+*.zip
+nltk_data/
+.ipynb_checkpoints/
