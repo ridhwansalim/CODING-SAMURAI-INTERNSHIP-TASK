@@ -1,21 +1,21 @@
-# 🚢 Level 2 Projects – Coding Samurai Data Science Internship
+# 🚀 Level 3 Projects – Coding Samurai Data Science Internship
 
-This level dives into classification problems using logistic regression and introduces real-world datasets for model building.
+This level emphasizes more advanced topics like time series forecasting and NLP-based sentiment analysis.
 
 ---
 
 ## ✅ Projects
 
-### 📌 Project 3: Titanic Classification using Logistic Regression
-- **Objective**: Predict passenger survival using logistic regression.
-- **Skills**: Classification, data preprocessing, EDA, model evaluation.
-- **Tools Used**: Python, Pandas, Seaborn, Scikit-learn
-- **Dataset**: Titanic (Kaggle)
+### 📌 Project 5: [Time Series Forecasting of AAPL Stock](./Level3/Project5_TimeSeries_Stocks)
+- **Objective**: Use ARIMA to predict future stock prices.
+- **Skills**: Time series decomposition, ADF testing, ACF/PACF, ARIMA modeling.
+- **Tools Used**: Python, Statsmodels, Matplotlib, yfinance
+- **Dataset**: Historical stock prices of AAPL (2020–2025)
 
-### 📌 Project 4: Logistic Regression on Titanic Dataset
-- **Objective**: Apply classification techniques again on Titanic data with a sharper focus on model tuning.
-- **Skills**: Logistic regression, performance metrics, feature encoding.
-- **Tools Used**: Python, Scikit-learn
-- **Dataset**: Titanic (Kaggle)
+### 📌 Project 6: [Sentiment Analysis on Tweets](./Level3/Project6_Sentiment_Tweets)
+- **Objective**: Classify tweets as positive or negative using NLP.
+- **Skills**: Text preprocessing, TF-IDF, logistic regression, model evaluation.
+- **Tools Used**: Python, NLTK, Scikit-learn, Pandas
+- **Dataset**: Sentiment140 (tweets.csv)
 
 ---
