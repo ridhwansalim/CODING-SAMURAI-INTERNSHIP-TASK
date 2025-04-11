@@ -6,13 +6,13 @@ This level focuses on foundational skills in data analytics and regression model
 
 ## ✅ Projects
 
-### 📌 Project 1: [Superstore Sales Analysis](./Level1/Project1_Superstore_Sales_Analysis)
+### 📌 Project 1: [Superstore Sales Analysis](./Project1_Superstore_Sales_Analysis)
 - **Objective**: Perform exploratory data analysis (EDA) on retail sales data.
 - **Skills**: Data wrangling, descriptive statistics, visualization (bar charts, pie charts).
 - **Tools Used**: Python, Pandas, Matplotlib, Seaborn
 - **Dataset**: Superstore.csv
 
-### 📌 Project 2: [Linear Regression on Advertising Data](./Level1/Project2_Linear_Regression)
+### 📌 Project 2: [Linear Regression on Advertising Data](./Project2_Linear_Regression)
 - **Objective**: Predict sales using advertising spend on TV, radio, and newspaper.
 - **Skills**: Linear regression, exploratory analysis, model evaluation.
 - **Tools Used**: Python, Pandas, Seaborn, Scikit-learn
