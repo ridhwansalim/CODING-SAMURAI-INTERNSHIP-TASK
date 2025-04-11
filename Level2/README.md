@@ -6,7 +6,7 @@ This level dives into classification problems using logistic regression and intr
 
 ## ✅ Projects
 
-### 📌 Project 3: [Titanic Classification](.Project3_Titanic_Classification)
+### 📌 Project 3: [Titanic Classification](./Project3_Titanic_Classification)
 - **Objective**: Predict passenger survival using logistic regression.
 - **Skills**: Classification, data preprocessing, EDA, model evaluation.
 - **Tools Used**: Python, Pandas, Seaborn, Scikit-learn
