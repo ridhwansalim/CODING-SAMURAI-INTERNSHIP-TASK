@@ -96,6 +96,6 @@ Each project includes a:
 
 ## 📜 License
 Contributed by @chrispin-7 for GitHub badge testing
-ridhwan salim
+
 
 This project is licensed under the **MIT License** - feel free to use and adapt the code with proper attribution.
